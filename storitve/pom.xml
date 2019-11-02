@@ -23,6 +23,7 @@
         <dependency>
             <groupId>si.fri.prpo.skupina5</groupId>
             <artifactId>entitete</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

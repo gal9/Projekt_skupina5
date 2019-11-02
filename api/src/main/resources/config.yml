@@ -1,0 +1,11 @@
+kumuluzee:
+  name:  razpisovanje-tem
+  version: 0.0.1
+  env:
+    name: dev
+  datasources:
+    - jndi-name: jdbc/RazpisovanjeTemDS
+      connection-url: jdbc.postgres://localhost:5432/razpisovanjetem
+      username: postgres
+      password: postgres
+      max-pool-size: 20
